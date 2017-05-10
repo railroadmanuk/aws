@@ -1,6 +1,12 @@
 #!/bin/bash
-# cloud-init script to install Jenkins on a EC2 Ubuntu instance, this will expose the
+# ===================
+# inst_jenkins_ubu.sh
+# ===================
+# Overview : cloud-init script to install Jenkins on a EC2 Ubuntu instance, this will expose the
 # Jenkins server on it's public IP on port 80
+# ===================
+# Use: Paste contents of this script into user-data when deploying an Ubuntu instance via EC2
+# ===================
 apt-get update
 apt-get install python-software-properties -y
 add-apt-repository ppa:openjdk-r/ppa -y

@@ -1,2 +1,3 @@
-# aws
-AWS scripts
+# AWS Scripts
+## Overview
+A repository of scripts for Amazon Web Services
